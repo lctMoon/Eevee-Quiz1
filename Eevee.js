@@ -94,7 +94,7 @@ function checkAnswer(userAnswer){
     nextQuestion();
 
     // Überprüfen, ob die Frage "Kann Eevee tanzen?" beantwortet wurde und die richtige Antwort ausgewählt wurde
-    if (currentQuestionIndex === 1 && userAnswer === 0) {
+    if (currentQuestionIndex === 3 && userAnswer === 0) {
         // Wenn ja, zeige die Datei an (Annahme: Sie haben eine Datei mit dem Namen 'moves.gif' im gleichen Verzeichnis wie Ihr HTML-Dokument)
         showMovesFile();
     }
